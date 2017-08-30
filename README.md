@@ -12,7 +12,13 @@ Machine for deep learning : https://www.oreilly.com/learning/build-a-super-fast-
 Coriander - CUDA compiled for OpenCL 1.2 - https://github.com/hughperkins/Coriander
 CNN course -http://cs231n.github.io/convolutional-networks/
 
+Follow Andrew Ng at youTube:
+https://www.youtube.com/watch?v=F1ka6a13S9I
+https://www.youtube.com/watch?v=pfFyZY1RPZU
+
+
 Good learning resources:
+http://karpathy.github.io - blog by Andrej Karpthy
 http://www.deeplearningbook.org - MIT Online book
 https://www.coursera.org/learn/machine-learning
 https://www.coursera.org/specializations/deep-learning NEW!
