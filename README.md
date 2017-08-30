@@ -2,11 +2,10 @@ This is a support links for the talk.
 
 Wiki on Accelerating change: https://en.wikipedia.org/wiki/Accelerating_change
 
-CNN comparsion in terms of operations
-https://culurciello.github.io/tech/2016/06/20/training-enet.html
+CNN comparison in terms of operations: https://culurciello.github.io/tech/2016/06/20/training-enet.html
 
-Reference PDF - comparsion DNNs and operations/power/memory : https://arxiv.org/abs/1605.07678
-Neuro rewiring expirement - original paper https://www.ncbi.nlm.nih.gov/pubmed/1527604
+Reference PDF - comparison DNNs and operations/power/memory : https://arxiv.org/abs/1605.07678
+Neurons rewiring experiment - original paper https://www.ncbi.nlm.nih.gov/pubmed/1527604
 
 Machine for deep learning : https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000
 Coriander - CUDA compiled for OpenCL 1.2 - https://github.com/hughperkins/Coriander
