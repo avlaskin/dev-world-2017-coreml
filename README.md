@@ -5,6 +5,7 @@ This is a support links for the talk.
 - Reference PDF - comparison DNNs and operations/power/memory : https://arxiv.org/abs/1605.07678
 - Neurons rewiring experiment - original paper https://www.ncbi.nlm.nih.gov/pubmed/1527604
 - Machine for deep learning : https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000
+- EGPU with 1080Ti: https://9to5mac.com/2017/04/19/akitio-node-gtx-1080-ti-gpu-macbook-pro-gaming-egpu/
 - Coriander - CUDA compiled for OpenCL 1.2 - https://github.com/hughperkins/Coriander
 - CNN course -http://cs231n.github.io/convolutional-networks/
 
