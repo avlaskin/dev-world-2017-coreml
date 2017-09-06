@@ -27,11 +27,11 @@ How to set up Keras on Mac (assuming that you have Python installed):
 ```
 curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 python get-pip.py
-sudo pip install tensorflow# tensorflow-gpu as a option
+sudo pip install tensorflow# for tensorflow-gpu see below
 sudo pip install keras# coremltools now supports keras 2.x
 sudo pip install coremltools
-cd ~/.keras# Here we need to set keras backend to be tensorflow
-nano keras.json
+cd ~/.keras# Here we need to check if keras backend is tensorflow
+cat keras.json
 ```
 
 And your ~/.keras/keras.json should look something like this:
@@ -44,6 +44,17 @@ And your ~/.keras/keras.json should look something like this:
 }
 ```
 
+To use (external or internal for old Macs) Nvidia GPU we need to install following:
+1. The NVIDIA drivers associated with CUDA.
+2. CUDA Toolkit 8.0 [v8.0.61]
+3. cuDNN v5.1 for CUDA 8.0.[v5.1] (this needs Nvidia developer account) - (Should be installed with DYLD_LIBRARY_PATH set)
+4. GPU card with CUDA compute capability 3.0 or higher.
+5. Set up DYLD_LIBRARY_PATH to be exported with cuda/lib and cuDNN/lib paths included.
+6. After that we can install tensorflow-gpu
+
+```sudo pip install tensorflow-gpu```
+
+Enjoy!
 
 
 This repo has an example of Keras Neural network that does learn XOR function. Although training set is excessive (takes all possible cases) - it is a good starting point for understanding on how you can do Keras model for iOS.
